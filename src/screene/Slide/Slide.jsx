@@ -19,11 +19,11 @@ export const Slide = () => {
         src="https://c.animaapp.com/XeGSEg7A/img/line-6.svg"
       />
 
-      <div className="nav-links">
+      <nav className="nav-links">
         <div className="div" onClick={() => scrollToSection("inicio")}>Proyectos</div>
         <div className="text-wrapper-2" onClick={() => scrollToSection("servicios")}>Servicios</div>
         <div className="text-wrapper-3" onClick={() => scrollToSection("sobre-mi")}>Sobre mi</div>
-      </div>
+      </nav>
 
       <img
         className="img"
