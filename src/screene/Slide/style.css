@@ -6,63 +6,6 @@
   width: 100%;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-section {
-  scroll-margin-top: 80px;
-}
-
-.slide .div {
-  color: #013076;
-  font-family: "Nunito", Helvetica;
-  font-size: 18px;
-  font-weight: 600;
-  right: 250px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 15px;
-  cursor: pointer;
-  transition: color 0.3s ease;
-}
-
-.slide .text-wrapper-2 {
-  color: #013076;
-  font-family: "Nunito", Helvetica;
-  font-size: 18px;
-  font-weight: 600;
-  right: 150px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 15px;
-  cursor: pointer;
-  transition: color 0.3s ease;
-}
-
-.slide .text-wrapper-3 {
-  color: #013076;
-  font-family: "Nunito", Helvetica;
-  font-size: 18px;
-  font-weight: 600;
-  right: 50px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 15px;
-  cursor: pointer;
-  transition: color 0.3s ease;
-}
-
-.slide .div:hover,
-.slide .text-wrapper-2:hover,
-.slide .text-wrapper-3:hover {
-  color: #2165cc;
-}
-
-/* Rest of your existing CSS styles */
 .slide .text-wrapper {
   aspect-ratio: 4.34;
   color: #2165cc;
@@ -86,6 +29,45 @@ section {
   width: 1920px;
 }
 
+.slide .div {
+  color: #013076;
+  font-family: "Nunito", Helvetica;
+  font-size: 30px;
+  font-weight: 600;
+  left: 751px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 244px;
+  width: 135px;
+}
+
+.slide .text-wrapper-2 {
+  color: #013076;
+  font-family: "Nunito", Helvetica;
+  font-size: 30px;
+  font-weight: 600;
+  left: 937px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 244px;
+  width: 127px;
+}
+
+.slide .text-wrapper-3 {
+  color: #013076;
+  font-family: "Nunito", Helvetica;
+  font-size: 30px;
+  font-weight: 600;
+  left: 1115px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 244px;
+  width: 127px;
+}
+
 .slide .img {
   height: 3px;
   left: 749px;
@@ -94,4 +76,263 @@ section {
   width: 137px;
 }
 
-/* Keep all your other existing styles */
+.slide .text-wrapper-4 {
+  color: #1e4fd9;
+  font-family: "Nunito", Helvetica;
+  font-size: 50px;
+  font-weight: 600;
+  left: 281px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 370px;
+  white-space: nowrap;
+  width: 122px;
+}
+
+.slide .text-wrapper-5 {
+  color: #1e4fd9;
+  font-family: "Nunito", Helvetica;
+  font-size: 50px;
+  font-weight: 600;
+  left: 951px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 370px;
+  white-space: nowrap;
+  width: 122px;
+}
+
+.slide .text-wrapper-6 {
+  color: #1e4fd9;
+  font-family: "Nunito", Helvetica;
+  font-size: 50px;
+  font-weight: 600;
+  left: 1567px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 370px;
+  white-space: nowrap;
+  width: 122px;
+}
+
+.slide .p {
+  color: #001d5b;
+  font-family: "Nunito", Helvetica;
+  font-size: 23px;
+  font-weight: 600;
+  left: 56px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 440px;
+  width: 572px;
+}
+
+.slide .IMG {
+  aspect-ratio: 1.33;
+  height: 380px;
+  left: 88px;
+  object-fit: cover;
+  position: absolute;
+  top: 667px;
+  width: 507px;
+}
+
+.slide .text-wrapper-7 {
+  color: #001d5b;
+  font-family: "Nunito", Helvetica;
+  font-size: 23px;
+  font-weight: 600;
+  left: 735px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 783px;
+  width: 555px;
+}
+
+.slide .captura-de-pantalla {
+  aspect-ratio: 1.78;
+  height: 289px;
+  left: 755px;
+  object-fit: cover;
+  position: absolute;
+  top: 443px;
+  width: 514px;
+}
+
+.slide .text-wrapper-8 {
+  color: #00235a;
+  font-family: "Nunito", Helvetica;
+  font-size: 23px;
+  font-weight: 600;
+  left: 1370px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 443px;
+  width: 510px;
+}
+
+.slide .captura-de-pantalla-2 {
+  aspect-ratio: 1.4;
+  height: 350px;
+  left: 1382px;
+  object-fit: cover;
+  position: absolute;
+  top: 703px;
+  width: 491px;
+}
+
+.slide .line-2 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 1380px;
+  width: 1917px;
+}
+
+.slide .dise-o-UI-UX-y {
+  color: #00235a;
+  font-family: "Nunito", Helvetica;
+  font-size: 35px;
+  font-weight: 600;
+  left: 379px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1465px;
+  width: 1219px;
+}
+
+.slide .text-wrapper-9 {
+  color: #00235a;
+  font-family: "Nunito", Helvetica;
+  font-size: 35px;
+  font-weight: 600;
+  left: 423px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1923px;
+  width: 1203px;
+}
+
+.slide .text-wrapper-10 {
+  aspect-ratio: 4.34;
+  color: #2165cc;
+  font-family: "Nunito", Helvetica;
+  font-size: 110px;
+  font-weight: 500;
+  left: 740px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1203px;
+  white-space: nowrap;
+  width: 498px;
+}
+
+.slide .material-symbols {
+  aspect-ratio: 1;
+  height: 445px;
+  left: 1625px;
+  position: absolute;
+  top: 1356px;
+  width: 295px;
+}
+
+.slide .ic-round-laptop {
+  aspect-ratio: 1;
+  height: 437px;
+  left: 0;
+  position: absolute;
+  top: 1367px;
+  width: 267px;
+}
+
+.slide .carbon-cics-program {
+  aspect-ratio: 1;
+  height: 565px;
+  left: 1526px;
+  position: absolute;
+  top: 1823px;
+  width: 394px;
+}
+
+.slide .mdi-design {
+  aspect-ratio: 1;
+  height: 433px;
+  left: 0;
+  position: absolute;
+  top: 1880px;
+  width: 406px;
+}
+
+.slide .line-3 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 2604px;
+  width: 1920px;
+}
+
+.slide .hola-soy-benjam-n {
+  color: #00235a;
+  font-family: "Nunito", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 177px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 2715px;
+  width: 912px;
+}
+
+.slide .rectangle {
+  height: 383px;
+  left: 1304px;
+  object-fit: cover;
+  position: absolute;
+  top: 2715px;
+  width: 396px;
+}
+
+.slide .benjamin-vernik-a {
+  color: #1e4fd9;
+  font-family: "Nunito", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 1294px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3127px;
+  width: 438px;
+}
+
+.slide .text-wrapper-11 {
+  aspect-ratio: 4.34;
+  color: #2165cc;
+  font-family: "Nunito", Helvetica;
+  font-size: 110px;
+  font-weight: 500;
+  left: 755px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2421px;
+  white-space: nowrap;
+  width: 498px;
+}
