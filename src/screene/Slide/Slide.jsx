@@ -31,55 +31,55 @@ export const Slide = () => {
         src="https://c.animaapp.com/XeGSEg7A/img/line-4.svg"
       />
 
-      <div className="text-wrapper-4">2023</div>
+      <section id="inicio">
+        <div className="text-wrapper-4">2023</div>
+        <div className="text-wrapper-5">2024</div>
+        <div className="text-wrapper-6">2025</div>
 
-      <div className="text-wrapper-5">2024</div>
+        <p className="p">
+          MovEyeS fue una app conectada a una placa Arduino con sensor de
+          movimiento. Permitía configurar una alarma, ver el historial de
+          movimientos y administrar usuarios y una red familiar. Usaba dos bases
+          de datos: una para usuarios y otra para los datos del sensor. Yo diseñé
+          la interfaz, la maqueta de la casa para ubicar los sensores y la caja
+          del producto final.
+        </p>
 
-      <div className="text-wrapper-6">2025</div>
+        <img
+          className="IMG"
+          alt="Img"
+          src="https://c.animaapp.com/XeGSEg7A/img/img-7821-1.png"
+        />
 
-      <p className="p">
-        MovEyeS fue una app conectada a una placa Arduino con sensor de
-        movimiento. Permitía configurar una alarma, ver el historial de
-        movimientos y administrar usuarios y una red familiar. Usaba dos bases
-        de datos: una para usuarios y otra para los datos del sensor. Yo diseñé
-        la interfaz, la maqueta de la casa para ubicar los sensores y la caja
-        del producto final.
-      </p>
+        <p className="text-wrapper-7">
+          Dribble Dash es un juego 2D de fútbol donde el jugador controla a un
+          futbolista que debe llegar a la meta mientras esquiva objetos como
+          botellas y piedras, y salta a los defensores. El juego está pensado para
+          ser entretenido y accesible para todas las edades. Yo diseñé al jugador
+          en distintos movimientos, los defensores, los objetos, el ambiente
+          futbolero y la pantalla de inicio.
+        </p>
 
-      <img
-        className="IMG"
-        alt="Img"
-        src="https://c.animaapp.com/XeGSEg7A/img/img-7821-1.png"
-      />
+        <img
+          className="captura-de-pantalla"
+          alt="Captura de pantalla"
+          src="https://c.animaapp.com/XeGSEg7A/img/captura-de-pantalla-2025-10-30-a-la-s--12-34-39-p--m--1.png"
+        />
 
-      <p className="text-wrapper-7">
-        Dribble Dash es un juego 2D de fútbol donde el jugador controla a un
-        futbolista que debe llegar a la meta mientras esquiva objetos como
-        botellas y piedras, y salta a los defensores. El juego está pensado para
-        ser entretenido y accesible para todas las edades. Yo diseñé al jugador
-        en distintos movimientos, los defensores, los objetos, el ambiente
-        futbolero y la pantalla de inicio.
-      </p>
+        <p className="text-wrapper-8">
+          Remind es una app para ayudar a personas mayores a recordar tareas
+          importantes del día, como tomar medicinas o ir al médico. Busca que sean
+          más organizados, independientes y tranquilos. Yo diseñé la interfaz
+          (UX/UI) y desarrollé el front-end y back-end, gestionando usuarios,
+          recordatorios y la conexión con la base de datos.
+        </p>
 
-      <img
-        className="captura-de-pantalla"
-        alt="Captura de pantalla"
-        src="https://c.animaapp.com/XeGSEg7A/img/captura-de-pantalla-2025-10-30-a-la-s--12-34-39-p--m--1.png"
-      />
-
-      <p className="text-wrapper-8">
-        Remind es una app para ayudar a personas mayores a recordar tareas
-        importantes del día, como tomar medicinas o ir al médico. Busca que sean
-        más organizados, independientes y tranquilos. Yo diseñé la interfaz
-        (UX/UI) y desarrollé el front-end y back-end, gestionando usuarios,
-        recordatorios y la conexión con la base de datos.
-      </p>
-
-      <img
-        className="captura-de-pantalla-2"
-        alt="Captura de pantalla"
-        src="https://c.animaapp.com/XeGSEg7A/img/captura-de-pantalla-2025-10-30-a-la-s--12-39-54-p--m--1@2x.png"
-      />
+        <img
+          className="captura-de-pantalla-2"
+          alt="Captura de pantalla"
+          src="https://c.animaapp.com/XeGSEg7A/img/captura-de-pantalla-2025-10-30-a-la-s--12-39-54-p--m--1@2x.png"
+        />
+      </section>
 
       <img
         className="line-2"
