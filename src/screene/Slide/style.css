@@ -69,6 +69,19 @@ section {
   color: #2165cc;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+
+#inicio, #servicios, #sobre-mi {
+  position: relative;
+  width: 100%;
+}
+
 .slide .img {
   height: 3px;
   left: 749px;
