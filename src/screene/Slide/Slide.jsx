@@ -19,11 +19,30 @@ export const Slide = () => {
         src="https://c.animaapp.com/XeGSEg7A/img/line-6.svg"
       />
 
-      <div>
-        <span className="div" style={{cursor: 'pointer'}} onClick={() => scrollToSection("inicio")}>Proyectos</span>
-        <span className="text-wrapper-2" style={{cursor: 'pointer'}} onClick={() => scrollToSection("servicios")}>Servicios</span>
-        <span className="text-wrapper-3" style={{cursor: 'pointer'}} onClick={() => scrollToSection("sobre-mi")}>Sobre mi</span>
-      </div>
+      import React from "react";
+import "./style.css";
+
+export const Slide = () => {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  return (
+    <div className="slide" data-model-id="8:183">
+      <div className="text-wrapper">Portafolio</div>
+
+      <img
+        className="line"
+        alt="Line"
+        src="https://c.animaapp.com/XeGSEg7A/img/line-6.svg"
+      />
+
+      <div className="div" onClick={() => scrollToSection("inicio")}>Proyectos</div>
+      <div className="text-wrapper-2" onClick={() => scrollToSection("servicios")}>Servicios</div>
+      <div className="text-wrapper-3" onClick={() => scrollToSection("sobre-mi")}>Sobre mi</div>
 
       <img
         className="img"
