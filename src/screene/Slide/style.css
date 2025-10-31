@@ -6,6 +6,25 @@
   width: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 244px;
+  z-index: 10;
+}
+
 .slide .text-wrapper {
   aspect-ratio: 4.34;
   color: #2165cc;
@@ -29,43 +48,25 @@
   width: 1920px;
 }
 
-.slide .div {
-  color: #013076;
-  font-family: "Nunito", Helvetica;
-  font-size: 30px;
-  font-weight: 600;
-  left: 751px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 244px;
-  width: 135px;
-}
-
-.slide .text-wrapper-2 {
-  color: #013076;
-  font-family: "Nunito", Helvetica;
-  font-size: 30px;
-  font-weight: 600;
-  left: 937px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 244px;
-  width: 127px;
-}
-
+.slide .div,
+.slide .text-wrapper-2,
 .slide .text-wrapper-3 {
   color: #013076;
   font-family: "Nunito", Helvetica;
   font-size: 30px;
   font-weight: 600;
-  left: 1115px;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  top: 244px;
-  width: 127px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  width: auto;
+  position: relative;
+}
+
+.slide .div:hover,
+.slide .text-wrapper-2:hover,
+.slide .text-wrapper-3:hover {
+  color: #2165cc;
 }
 
 html {
@@ -73,25 +74,12 @@ html {
 }
 
 section {
-  scroll-margin-top: 120px;
-  padding: 40px 0;
-  position: relative;
+  scroll-margin-top: 100px;
 }
 
 #inicio, #servicios, #sobre-mi {
   position: relative;
   width: 100%;
-  scroll-snap-align: start;
-}
-
-.nav-links {
-  background-color: rgba(194, 212, 238, 0.95);
-  padding: 15px 0;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-  backdrop-filter: blur(5px);
 }
 
 .slide .img {

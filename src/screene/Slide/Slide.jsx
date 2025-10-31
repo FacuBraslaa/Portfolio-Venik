@@ -2,6 +2,13 @@ import React from "react";
 import "./style.css";
 
 export const Slide = () => {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="slide" data-model-id="8:183">
       <div className="text-wrapper">Portafolio</div>
@@ -12,11 +19,11 @@ export const Slide = () => {
         src="https://c.animaapp.com/XeGSEg7A/img/line-6.svg"
       />
 
-      <div className="div">Proyectos</div>
-
-      <div className="text-wrapper-2">Servicios</div>
-
-      <div className="text-wrapper-3">Sobre mi</div>
+      <div className="nav-links">
+        <div className="div" onClick={() => scrollToSection("inicio")}>Proyectos</div>
+        <div className="text-wrapper-2" onClick={() => scrollToSection("servicios")}>Servicios</div>
+        <div className="text-wrapper-3" onClick={() => scrollToSection("sobre-mi")}>Sobre mi</div>
+      </div>
 
       <img
         className="img"
@@ -80,53 +87,52 @@ export const Slide = () => {
         src="https://c.animaapp.com/XeGSEg7A/img/line-5.svg"
       />
 
-      <section id="servicios">
-        <div className="text-wrapper-10">Servicios</div>
-        <p className="dise-o-UI-UX-y">
-          Diseño UI/UX y branding visual: Creo interfaces y estilos visuales
-          claros, atractivos y coherentes con la identidad de tu proyecto.
-          <br />
-          Creación de interfaces limpias y funcionales: Desarrollo experiencias
-          digitales fáciles de usar, que hace que guíen al usuario de forma
-          intuitiva.
-          <br />
-          Desarrollo visual de proyectos digitales: Diseño elementos gráficos,
-          pantallas y componentes interactivos para apps, sitios web y juegos.
-          <br />
-          Estrategias de presencia online y gestión digital: Ayudo a planificar y
-          organizar la presencia digital para comunicar efectivamente y mejorar la
-          experiencia del usuario.
-        </p>
+      <p className="dise-o-UI-UX-y">
+        Diseño UI/UX y branding visual: Creo interfaces y estilos visuales
+        claros, atractivos y coherentes con la identidad de tu proyecto.
+        <br />
+        Creación de interfaces limpias y funcionales: Desarrollo experiencias
+        digitales fáciles de usar, que hace que guíen al usuario de forma
+        intuitiva.
+        <br />
+        Desarrollo visual de proyectos digitales: Diseño elementos gráficos,
+        pantallas y componentes interactivos para apps, sitios web y juegos.
+        <br />
+        Estrategias de presencia online y gestión digital: Ayudo a planificar y
+        organizar la presencia digital para comunicar efectivamente y mejorar la
+        experiencia del usuario.
+      </p>
 
-        <p className="text-wrapper-9">
-          Mi objetivo: Crear experiencias digitales que no solo se vean bien, sino
-          que comuniquen, inspiren y funcionen.
-        </p>
+      <p className="text-wrapper-9">
+        Mi objetivo: Crear experiencias digitales que no solo se vean bien, sino
+        que comuniquen, inspiren y funcionen.
+      </p>
 
-        <img
-          className="material-symbols"
-          alt="Material symbols"
-          src="https://c.animaapp.com/XeGSEg7A/img/material-symbols-star.svg"
-        />
+      <div className="text-wrapper-10">Servicios</div>
 
-        <img
-          className="ic-round-laptop"
-          alt="Ic round laptop"
-          src="https://c.animaapp.com/XeGSEg7A/img/ic-round-laptop.svg"
-        />
+      <img
+        className="material-symbols"
+        alt="Material symbols"
+        src="https://c.animaapp.com/XeGSEg7A/img/material-symbols-star.svg"
+      />
 
-        <img
-          className="carbon-cics-program"
-          alt="Carbon cics program"
-          src="https://c.animaapp.com/XeGSEg7A/img/carbon-cics-program.svg"
-        />
+      <img
+        className="ic-round-laptop"
+        alt="Ic round laptop"
+        src="https://c.animaapp.com/XeGSEg7A/img/ic-round-laptop.svg"
+      />
 
-        <img
-          className="mdi-design"
-          alt="Mdi design"
-          src="https://c.animaapp.com/XeGSEg7A/img/mdi-design.svg"
-        />
-      </section>
+      <img
+        className="carbon-cics-program"
+        alt="Carbon cics program"
+        src="https://c.animaapp.com/XeGSEg7A/img/carbon-cics-program.svg"
+      />
+
+      <img
+        className="mdi-design"
+        alt="Mdi design"
+        src="https://c.animaapp.com/XeGSEg7A/img/mdi-design.svg"
+      />
 
       <img
         className="line-3"
@@ -134,32 +140,31 @@ export const Slide = () => {
         src="https://c.animaapp.com/XeGSEg7A/img/line-6.svg"
       />
 
-      <section id="sobre-mi">
-        <div className="text-wrapper-11">Sobre mi</div>
-        <p className="hola-soy-benjam-n">
-          Hola, soy Benjamín
-          <br />
-          Tengo 18 años, soy estudiante y me dedico al diseño gráfico y la
-          programación. Me apasiona crear experiencias digitales que sean
-          visualmente atractivas y fáciles de usar. En mis proyectos, como Remind,
-          combino creatividad y estrategia para diseñar interfaces, desarrollar
-          frontend y backend, y darle identidad a cada idea. Mi objetivo es
-          transformar conceptos en productos digitales que comuniquen, inspiren y
-          funcionen.
-        </p>
+      <p className="hola-soy-benjam-n">
+        Hola, soy Benjamín
+        <br />
+        Tengo 18 años, soy estudiante y me dedico al diseño gráfico y la
+        programación. Me apasiona crear experiencias digitales que sean
+        visualmente atractivas y fáciles de usar. En mis proyectos, como Remind,
+        combino creatividad y estrategia para diseñar interfaces, desarrollar
+        frontend y backend, y darle identidad a cada idea. Mi objetivo es
+        transformar conceptos en productos digitales que comuniquen, inspiren y
+        funcionen.
+      </p>
 
-        <img
-          className="rectangle"
-          alt="Rectangle"
-          src="https://c.animaapp.com/XeGSEg7A/img/rectangle-88@2x.png"
-        />
+      <img
+        className="rectangle"
+        alt="Rectangle"
+        src="https://c.animaapp.com/XeGSEg7A/img/rectangle-88@2x.png"
+      />
 
-        <div className="benjamin-vernik-a">
-          Benjamin Vernik
-          <br />
-          18 años
-        </div>
-      </section>
+      <div className="benjamin-vernik-a">
+        Benjamin Vernik
+        <br />
+        18 años
+      </div>
+
+      <div className="text-wrapper-11">Sobre mi</div>
     </div>
   );
 };
