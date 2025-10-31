@@ -48,43 +48,25 @@ section {
   width: 1920px;
 }
 
-.slide .div {
-  color: #013076;
-  font-family: "Nunito", Helvetica;
-  font-size: 30px;
-  font-weight: 600;
-  left: 751px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 244px;
-  width: 135px;
-}
-
-.slide .text-wrapper-2 {
-  color: #013076;
-  font-family: "Nunito", Helvetica;
-  font-size: 30px;
-  font-weight: 600;
-  left: 937px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 244px;
-  width: 127px;
-}
-
+.slide .div,
+.slide .text-wrapper-2,
 .slide .text-wrapper-3 {
   color: #013076;
   font-family: "Nunito", Helvetica;
   font-size: 30px;
   font-weight: 600;
-  left: 1115px;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  top: 244px;
-  width: 127px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  width: auto;
+  position: relative;
+}
+
+.slide .div:hover,
+.slide .text-wrapper-2:hover,
+.slide .text-wrapper-3:hover {
+  color: #2165cc;
 }
 
 .slide .img {
