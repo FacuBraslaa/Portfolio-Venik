@@ -87,52 +87,54 @@ export const Slide = () => {
         src="https://c.animaapp.com/XeGSEg7A/img/line-5.svg"
       />
 
-      <p className="dise-o-UI-UX-y">
-        Diseño UI/UX y branding visual: Creo interfaces y estilos visuales
-        claros, atractivos y coherentes con la identidad de tu proyecto.
-        <br />
-        Creación de interfaces limpias y funcionales: Desarrollo experiencias
-        digitales fáciles de usar, que hace que guíen al usuario de forma
-        intuitiva.
-        <br />
-        Desarrollo visual de proyectos digitales: Diseño elementos gráficos,
-        pantallas y componentes interactivos para apps, sitios web y juegos.
-        <br />
-        Estrategias de presencia online y gestión digital: Ayudo a planificar y
-        organizar la presencia digital para comunicar efectivamente y mejorar la
-        experiencia del usuario.
-      </p>
+      <section id="servicios">
+        <div className="text-wrapper-10">Servicios</div>
+        
+        <p className="dise-o-UI-UX-y">
+          Diseño UI/UX y branding visual: Creo interfaces y estilos visuales
+          claros, atractivos y coherentes con la identidad de tu proyecto.
+          <br />
+          Creación de interfaces limpias y funcionales: Desarrollo experiencias
+          digitales fáciles de usar, que hace que guíen al usuario de forma
+          intuitiva.
+          <br />
+          Desarrollo visual de proyectos digitales: Diseño elementos gráficos,
+          pantallas y componentes interactivos para apps, sitios web y juegos.
+          <br />
+          Estrategias de presencia online y gestión digital: Ayudo a planificar y
+          organizar la presencia digital para comunicar efectivamente y mejorar la
+          experiencia del usuario.
+        </p>
 
-      <p className="text-wrapper-9">
-        Mi objetivo: Crear experiencias digitales que no solo se vean bien, sino
-        que comuniquen, inspiren y funcionen.
-      </p>
+        <p className="text-wrapper-9">
+          Mi objetivo: Crear experiencias digitales que no solo se vean bien, sino
+          que comuniquen, inspiren y funcionen.
+        </p>
 
-      <div className="text-wrapper-10">Servicios</div>
+        <img
+          className="material-symbols"
+          alt="Material symbols"
+          src="https://c.animaapp.com/XeGSEg7A/img/material-symbols-star.svg"
+        />
 
-      <img
-        className="material-symbols"
-        alt="Material symbols"
-        src="https://c.animaapp.com/XeGSEg7A/img/material-symbols-star.svg"
-      />
+        <img
+          className="ic-round-laptop"
+          alt="Ic round laptop"
+          src="https://c.animaapp.com/XeGSEg7A/img/ic-round-laptop.svg"
+        />
 
-      <img
-        className="ic-round-laptop"
-        alt="Ic round laptop"
-        src="https://c.animaapp.com/XeGSEg7A/img/ic-round-laptop.svg"
-      />
+        <img
+          className="carbon-cics-program"
+          alt="Carbon cics program"
+          src="https://c.animaapp.com/XeGSEg7A/img/carbon-cics-program.svg"
+        />
 
-      <img
-        className="carbon-cics-program"
-        alt="Carbon cics program"
-        src="https://c.animaapp.com/XeGSEg7A/img/carbon-cics-program.svg"
-      />
-
-      <img
-        className="mdi-design"
-        alt="Mdi design"
-        src="https://c.animaapp.com/XeGSEg7A/img/mdi-design.svg"
-      />
+        <img
+          className="mdi-design"
+          alt="Mdi design"
+          src="https://c.animaapp.com/XeGSEg7A/img/mdi-design.svg"
+        />
+      </section>
 
       <img
         className="line-3"
