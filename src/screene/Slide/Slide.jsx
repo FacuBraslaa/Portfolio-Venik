@@ -2,6 +2,13 @@ import React from "react";
 import "./style.css";
 
 export const Slide = () => {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="slide" data-model-id="8:183">
       <div className="text-wrapper">Portafolio</div>
@@ -12,11 +19,11 @@ export const Slide = () => {
         src="https://c.animaapp.com/XeGSEg7A/img/line-6.svg"
       />
 
-      <div className="div">Proyectos</div>
-
-      <div className="text-wrapper-2">Servicios</div>
-
-      <div className="text-wrapper-3">Sobre mi</div>
+      <div className="nav-links">
+        <div className="div" onClick={() => scrollToSection("inicio")}>Proyectos</div>
+        <div className="text-wrapper-2" onClick={() => scrollToSection("servicios")}>Servicios</div>
+        <div className="text-wrapper-3" onClick={() => scrollToSection("sobre-mi")}>Sobre mi</div>
+      </div>
 
       <img
         className="img"
