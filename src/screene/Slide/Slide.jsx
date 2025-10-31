@@ -142,31 +142,33 @@ export const Slide = () => {
         src="https://c.animaapp.com/XeGSEg7A/img/line-6.svg"
       />
 
-      <p className="hola-soy-benjam-n">
-        Hola, soy Benjamín
-        <br />
-        Tengo 18 años, soy estudiante y me dedico al diseño gráfico y la
-        programación. Me apasiona crear experiencias digitales que sean
-        visualmente atractivas y fáciles de usar. En mis proyectos, como Remind,
-        combino creatividad y estrategia para diseñar interfaces, desarrollar
-        frontend y backend, y darle identidad a cada idea. Mi objetivo es
-        transformar conceptos en productos digitales que comuniquen, inspiren y
-        funcionen.
-      </p>
+      <section id="sobre-mi">
+        <div className="text-wrapper-11">Sobre mi</div>
+        
+        <p className="hola-soy-benjam-n">
+          Hola, soy Benjamín
+          <br />
+          Tengo 18 años, soy estudiante y me dedico al diseño gráfico y la
+          programación. Me apasiona crear experiencias digitales que sean
+          visualmente atractivas y fáciles de usar. En mis proyectos, como Remind,
+          combino creatividad y estrategia para diseñar interfaces, desarrollar
+          frontend y backend, y darle identidad a cada idea. Mi objetivo es
+          transformar conceptos en productos digitales que comuniquen, inspiren y
+          funcionen.
+        </p>
 
-      <img
-        className="rectangle"
-        alt="Rectangle"
-        src="https://c.animaapp.com/XeGSEg7A/img/rectangle-88@2x.png"
-      />
+        <img
+          className="rectangle"
+          alt="Rectangle"
+          src="https://c.animaapp.com/XeGSEg7A/img/rectangle-88@2x.png"
+        />
 
-      <div className="benjamin-vernik-a">
-        Benjamin Vernik
-        <br />
-        18 años
-      </div>
-
-      <div className="text-wrapper-11">Sobre mi</div>
+        <div className="benjamin-vernik-a">
+          Benjamin Vernik
+          <br />
+          18 años
+        </div>
+      </section>
     </div>
   );
 };
