@@ -17,14 +17,13 @@ section {
 .slide .div {
   color: #013076;
   font-family: "Nunito", Helvetica;
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 600;
-  left: 751px;
+  right: 250px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 244px;
-  width: 135px;
+  top: 15px;
   cursor: pointer;
   transition: color 0.3s ease;
 }
@@ -32,14 +31,13 @@ section {
 .slide .text-wrapper-2 {
   color: #013076;
   font-family: "Nunito", Helvetica;
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 600;
-  left: 937px;
+  right: 150px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 244px;
-  width: 127px;
+  top: 15px;
   cursor: pointer;
   transition: color 0.3s ease;
 }
@@ -47,14 +45,13 @@ section {
 .slide .text-wrapper-3 {
   color: #013076;
   font-family: "Nunito", Helvetica;
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 600;
-  left: 1115px;
+  right: 50px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 244px;
-  width: 127px;
+  top: 15px;
   cursor: pointer;
   transition: color 0.3s ease;
 }
