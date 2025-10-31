@@ -11,6 +11,40 @@ html {
 }
 
 section {
+  scroll-margin-top: 80px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 50px;
+  position: fixed;
+  top: 244px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  background-color: rgba(194, 212, 238, 0.9);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.nav-links .div,
+.nav-links .text-wrapper-2,
+.nav-links .text-wrapper-3 {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-links .div:hover,
+.nav-links .text-wrapper-2:hover,
+.nav-links .text-wrapper-3:hover {
+  color: #2165cc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
   scroll-margin-top: 100px;
 }
 
