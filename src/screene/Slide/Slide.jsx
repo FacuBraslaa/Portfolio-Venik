@@ -10,161 +10,140 @@ export const Slide = () => {
   };
 
   return (
-    <div className="slide" data-model-id="8:183">
-      <div className="text-wrapper">Portafolio</div>
+    <div className="slide" id="inicio">
+      <header className="hero">
+        <div className="hero-title">Portfolio</div>
+        <nav className="nav-links">
+          <button type="button" onClick={() => scrollToSection("sobre-mi")}>
+            Sobre mi
+          </button>
+          <button type="button" onClick={() => scrollToSection("proyectos")}>
+            Proyectos
+          </button>
+          <button type="button" onClick={() => scrollToSection("habilidades")}>
+            Habilidades
+          </button>
+          <button type="button" onClick={() => scrollToSection("contacto")}>
+            Contacto
+          </button>
+        </nav>
 
-      <img
-        className="line"
-        alt="Line"
-        src="https://c.animaapp.com/XeGSEg7A/img/line-6.svg"
-      />
+        <div className="profile-card">
+          <img
+            className="profile-photo"
+            alt="Benjamin Vernik"
+            src="https://c.animaapp.com/XeGSEg7A/img/rectangle-88@2x.png"
+          />
+          <p className="profile-greeting">Hola soy</p>
+          <h1 className="profile-name">Benjamin Vernik</h1>
+        </div>
+      </header>
 
-      <div className="nav-links">
-        <div className="div" onClick={() => scrollToSection("inicio")}>Proyectos</div>
-        <div className="text-wrapper-2" onClick={() => scrollToSection("servicios")}>Servicios</div>
-        <div className="text-wrapper-3" onClick={() => scrollToSection("sobre-mi")}>Sobre mi</div>
-      </div>
-
-      <img
-        className="img"
-        alt="Line"
-        src="https://c.animaapp.com/XeGSEg7A/img/line-4.svg"
-      />
-
-      <section id="inicio">
-        <div className="text-wrapper-4">2023</div>
-        <div className="text-wrapper-5">2024</div>
-        <div className="text-wrapper-6">2025</div>
-
-        <p className="p">
-          MovEyeS fue una app conectada a una placa Arduino con sensor de
-          movimiento. Permitía configurar una alarma, ver el historial de
-          movimientos y administrar usuarios y una red familiar. Usaba dos bases
-          de datos: una para usuarios y otra para los datos del sensor. Yo diseñé
-          la interfaz, la maqueta de la casa para ubicar los sensores y la caja
-          del producto final.
+      <section id="sobre-mi" className="section about">
+        <h2>Sobre mi</h2>
+        <p>
+          Soy Benjamin Vernik, tengo 18 años y estudio en ORT. Desde los 10 años
+          me gusta el diseño gráfico y la programación, y hoy sigo aprendiendo
+          para crear proyectos que se vean bien y funcionen bien. En la escuela
+          hice tres proyectos importantes donde pude combinar diseño y
+          desarrollo. Gracias a eso descubrí que realmente disfruto crear
+          experiencias digitales claras, útiles y lindas.
         </p>
-
-        <img
-          className="IMG"
-          alt="Img"
-          src="https://c.animaapp.com/XeGSEg7A/img/img-7821-1.png"
-        />
-
-        <p className="text-wrapper-7">
-          Dribble Dash es un juego 2D de fútbol donde el jugador controla a un
-          futbolista que debe llegar a la meta mientras esquiva objetos como
-          botellas y piedras, y salta a los defensores. El juego está pensado para
-          ser entretenido y accesible para todas las edades. Yo diseñé al jugador
-          en distintos movimientos, los defensores, los objetos, el ambiente
-          futbolero y la pantalla de inicio.
+        <p>
+          En mi tiempo libre juego al fútbol en el Club Atlético Buchardo y
+          escucho mucha música, especialmente rock nacional. Siempre busco
+          aprender cosas nuevas y mejorar en lo que hago. Estoy siempre buscando
+          nuevas ideas, proyectos y formas de seguir aprendiendo.
         </p>
-
-        <img
-          className="captura-de-pantalla"
-          alt="Captura de pantalla"
-          src="https://c.animaapp.com/XeGSEg7A/img/captura-de-pantalla-2025-10-30-a-la-s--12-34-39-p--m--1.png"
-        />
-
-        <p className="text-wrapper-8">
-          Remind es una app para ayudar a personas mayores a recordar tareas
-          importantes del día, como tomar medicinas o ir al médico. Busca que sean
-          más organizados, independientes y tranquilos. Yo diseñé la interfaz
-          (UX/UI) y desarrollé el front-end y back-end, gestionando usuarios,
-          recordatorios y la conexión con la base de datos.
-        </p>
-
-        <img
-          className="captura-de-pantalla-2"
-          alt="Captura de pantalla"
-          src="https://c.animaapp.com/XeGSEg7A/img/captura-de-pantalla-2025-10-30-a-la-s--12-39-54-p--m--1@2x.png"
-        />
       </section>
 
-      <img
-        className="line-2"
-        alt="Line"
-        src="https://c.animaapp.com/XeGSEg7A/img/line-5.svg"
-      />
+      <section id="habilidades" className="section skills">
+        <h2>Habilidades</h2>
+        <ul>
+          <li>Diseño accesible.</li>
+          <li>Conocimiento amplio de distintas herramientas.</li>
+          <li>Constancia para cerrar proyectos.</li>
+          <li>Propongo ideas y soluciones creativas.</li>
+          <li>Trabajo en equipo con buena comunicación.</li>
+        </ul>
+      </section>
 
-      <p className="dise-o-UI-UX-y">
-        Diseño UI/UX y branding visual: Creo interfaces y estilos visuales
-        claros, atractivos y coherentes con la identidad de tu proyecto.
-        <br />
-        Creación de interfaces limpias y funcionales: Desarrollo experiencias
-        digitales fáciles de usar, que hace que guíen al usuario de forma
-        intuitiva.
-        <br />
-        Desarrollo visual de proyectos digitales: Diseño elementos gráficos,
-        pantallas y componentes interactivos para apps, sitios web y juegos.
-        <br />
-        Estrategias de presencia online y gestión digital: Ayudo a planificar y
-        organizar la presencia digital para comunicar efectivamente y mejorar la
-        experiencia del usuario.
-      </p>
+      <section id="proyectos" className="section projects">
+        <h2>Mis proyectos mas recientes</h2>
+        <div className="project-grid">
+          <article className="project-card">
+            <div className="project-year">2023</div>
+            <h3>MovEyeS Seguridad Inteligente para el Hogar</h3>
+            <img
+              src="https://c.animaapp.com/XeGSEg7A/img/img-7821-1.png"
+              alt="MovEyeS app"
+            />
+            <p>
+              App conectada a Arduino con sensor de movimiento. Permite activar
+              alarma, ver historial de movimientos, administrar usuarios, crear
+              red familiar y ver la ubicación del producto.
+            </p>
+          </article>
 
-      <p className="text-wrapper-9">
-        Mi objetivo: Crear experiencias digitales que no solo se vean bien, sino
-        que comuniquen, inspiren y funcionen.
-      </p>
+          <article className="project-card">
+            <div className="project-year">2024</div>
+            <h3>Dribble Dash Juego 2D de Fútbol</h3>
+            <img
+              src="https://c.animaapp.com/XeGSEg7A/img/captura-de-pantalla-2025-10-30-a-la-s--12-34-39-p--m--1.png"
+              alt="Dribble Dash"
+            />
+            <p>
+              Juego donde el jugador avanza esquivando objetos y defensores.
+              Diseñé los personajes, los obstáculos, el estadio y la pantalla de
+              inicio.
+            </p>
+          </article>
 
-      <div className="text-wrapper-10">Servicios</div>
+          <article className="project-card">
+            <div className="project-year">2025</div>
+            <h3>Remind App de Recordatorios para Adultos Mayores</h3>
+            <img
+              src="https://c.animaapp.com/XeGSEg7A/img/captura-de-pantalla-2025-10-30-a-la-s--12-39-54-p--m--1@2x.png"
+              alt="Remind app"
+            />
+            <p>
+              App que ayuda a recordar tareas y medicinas. Diseñé UX/UI y la
+              identidad visual, y desarrollé frontend y backend para manejar
+              recordatorios y base de datos.
+            </p>
+          </article>
+        </div>
+      </section>
 
-      <img
-        className="material-symbols"
-        alt="Material symbols"
-        src="https://c.animaapp.com/XeGSEg7A/img/material-symbols-star.svg"
-      />
-
-      <img
-        className="ic-round-laptop"
-        alt="Ic round laptop"
-        src="https://c.animaapp.com/XeGSEg7A/img/ic-round-laptop.svg"
-      />
-
-      <img
-        className="carbon-cics-program"
-        alt="Carbon cics program"
-        src="https://c.animaapp.com/XeGSEg7A/img/carbon-cics-program.svg"
-      />
-
-      <img
-        className="mdi-design"
-        alt="Mdi design"
-        src="https://c.animaapp.com/XeGSEg7A/img/mdi-design.svg"
-      />
-
-      <img
-        className="line-3"
-        alt="Line"
-        src="https://c.animaapp.com/XeGSEg7A/img/line-6.svg"
-      />
-
-      <p className="hola-soy-benjam-n">
-        Hola, soy Benjamín
-        <br />
-        Tengo 18 años, soy estudiante y me dedico al diseño gráfico y la
-        programación. Me apasiona crear experiencias digitales que sean
-        visualmente atractivas y fáciles de usar. En mis proyectos, como Remind,
-        combino creatividad y estrategia para diseñar interfaces, desarrollar
-        frontend y backend, y darle identidad a cada idea. Mi objetivo es
-        transformar conceptos en productos digitales que comuniquen, inspiren y
-        funcionen.
-      </p>
-
-      <img
-        className="rectangle"
-        alt="Rectangle"
-        src="https://c.animaapp.com/XeGSEg7A/img/rectangle-88@2x.png"
-      />
-
-      <div className="benjamin-vernik-a">
-        Benjamin Vernik
-        <br />
-        18 años
-      </div>
-
-      <div className="text-wrapper-11">Sobre mi</div>
+      <section id="contacto" className="section contact">
+        <h2>Contacto</h2>
+        <div className="contact-list">
+          <a
+            href="https://www.linkedin.com/in/benjaminvernik"
+            target="_blank"
+            rel="noreferrer"
+            className="contact-item"
+          >
+            <span className="contact-icon linkedin" aria-hidden="true" />
+            Linkedin: Benjamin Vernik
+          </a>
+          <a href="mailto:benjavernik@gmail.com" className="contact-item">
+            <span className="contact-icon mail" aria-hidden="true" />
+            Gmail: Benjavernik@gmail.com
+          </a>
+          <a href="tel:+541120944567" className="contact-item">
+            <span className="contact-icon phone" aria-hidden="true" />
+            Telefono:+541120944567
+          </a>
+        </div>
+        <button
+          type="button"
+          className="cta"
+          onClick={() => scrollToSection("contacto")}
+        >
+          Contactame
+        </button>
+      </section>
     </div>
   );
 };
