@@ -79,9 +79,8 @@ export const Slide = () => {
               alt="MovEyeS app"
             />
             <p>
-              App conectada a Arduino con sensor de movimiento. Permite activar
-              alarma, ver historial de movimientos, administrar usuarios, crear
-              red familiar y ver la ubicación del producto.
+              Permite activar alarmas y ver detecciones. Diseñé la interfaz, la
+              maqueta y la caja del producto.
             </p>
           </article>
 
@@ -93,9 +92,8 @@ export const Slide = () => {
               alt="Dribble Dash"
             />
             <p>
-              Juego donde el jugador avanza esquivando objetos y defensores.
-              Diseñé los personajes, los obstáculos, el estadio y la pantalla de
-              inicio.
+              El jugador esquiva objetos y defensores. Diseñé personajes,
+              objetos, entorno y pantalla de inicio.
             </p>
           </article>
 
@@ -107,9 +105,8 @@ export const Slide = () => {
               alt="Remind app"
             />
             <p>
-              App que ayuda a recordar tareas y medicinas. Diseñé UX/UI y la
-              identidad visual, y desarrollé frontend y backend para manejar
-              recordatorios y base de datos.
+              Diseñé la interfaz y desarrollé el front-end, back-end y la base
+              de datos.
             </p>
           </article>
         </div>
